@@ -28,9 +28,8 @@ function sumOfNumbers(arrayOfNumbers) {
  * @returns number the count of even numbers
  */
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.filter( a => a % 2 == 0);
+    return arrayOfNumbers.filter(a => a % 2 == 0).length;
 }
-
 
 /**
  * Challenge - 3
