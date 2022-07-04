@@ -16,7 +16,7 @@ const assignment = {};
 function sumOfNumbers(arrayOfNumbers) {
     return arrayOfNumbers.reduce((a, b) => a + b , 0);
 }
-
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -30,6 +30,7 @@ function sumOfNumbers(arrayOfNumbers) {
 function countEvenNumbers(arrayOfNumbers) {
     return arrayOfNumbers.filter(a => a % 2 == 0).length;
 }
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
